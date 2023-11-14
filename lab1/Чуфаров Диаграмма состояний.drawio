@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2023-11-14T15:03:30.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="RmKPuoS9yhLeHqqS17ps" version="22.1.0" type="device">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-1" target="yei8Hj0m3I_ZP5JYW1L--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="130" y="145" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--1" target="yei8Hj0m3I_ZP5JYW1L--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--1" value="Sends a request to the server for availability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--3" target="yei8Hj0m3I_ZP5JYW1L--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--3" target="yei8Hj0m3I_ZP5JYW1L--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--3" value="Awaiting reply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--3" target="yei8Hj0m3I_ZP5JYW1L--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--8" value="Awaiting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="145" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--11" value="" style="ellipse;html=1;shape=startState;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="445" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--14" value="Reply not received" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--15" target="yei8Hj0m3I_ZP5JYW1L--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--15" target="yei8Hj0m3I_ZP5JYW1L--24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="110" />
+              <mxPoint x="690" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--15" target="yei8Hj0m3I_ZP5JYW1L--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="110" />
+              <mxPoint x="630" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--15" value="Frozen, waiting for saved logins/passwords to be found and keyed in for the first time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--17" value="Reply received" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="48" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yei8Hj0m3I_ZP5JYW1L--18" target="yei8Hj0m3I_ZP5JYW1L--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--18" value="Steals logins and passwords, hashes them, sends them to the server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="18" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--20" value="Logins/passwords found &lt;br&gt;first time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--23" value="sent it to the server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="185" as="sourcePoint" />
+            <mxPoint x="665" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--24" value="Steals input from the keyboard, hashes it, and sends it to the server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--25" value="Keyboard input found" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="135" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--29" value="Sent it to the server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="185" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yei8Hj0m3I_ZP5JYW1L--32" value="Logins/passwords received and &lt;br&gt;sent, keyboard input received and sent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
